@@ -3,7 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Bullet
     - BulletSpawner
-    - GameManger
+    - GameManager
     - PlayerController
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -58,23 +58,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11164}
+      Script: {instanceID: 11158}
     - Class: 114
-      Script: {instanceID: 11322}
+      Script: {instanceID: 11316}
     - Class: 114
-      Script: {instanceID: 11526}
+      Script: {instanceID: 11520}
     - Class: 114
-      Script: {instanceID: 11746}
+      Script: {instanceID: 11740}
     - Class: 114
-      Script: {instanceID: 12454}
+      Script: {instanceID: 12448}
     - Class: 114
-      Script: {instanceID: 12486}
+      Script: {instanceID: 12480}
     - Class: 114
-      Script: {instanceID: 12610}
+      Script: {instanceID: 12604}
     - Class: 114
-      Script: {instanceID: 12960}
+      Script: {instanceID: 12850}
     - Class: 114
-      Script: {instanceID: 42872}
+      Script: {instanceID: 12956}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -448,6 +448,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: 340446d57eb7a8b77930ef0a22bfa8c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: 21d73eda81c18eacd2c91ad5dfaf2e32
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -542,12 +548,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 340446d57eb7a8b77930ef0a22bfa8c8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameManger
   platform: 5
   scenePathNames:
   - Assets/Cartoon Cat/Cartoon Cat.unity
