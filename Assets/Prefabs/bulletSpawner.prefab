@@ -89,12 +89,12 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4854976705398781188}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0, y: 2, z: -0.00000008940697}
 --- !u!114 &3460053044980364128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a9bc1bbbe79ac4a83d12316b6d33fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 7082099727781428449, guid: 351c0794584ae2f43807b2e72116d022,
+  bulletPrefab: {fileID: 3144139651189368902, guid: 093d8dda47b875d458771e07e84c956e,
     type: 3}
-  spawnRateMin: 0.5
-  spawnRateMax: 3
+  spawnRateMin: 0.1
+  spawnRateMax: 0.5

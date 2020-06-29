@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net.Mime;
 using UnityEngine;
 
 public class BulletSpawner : MonoBehaviour
@@ -30,7 +31,8 @@ public class BulletSpawner : MonoBehaviour
             // 누적된 시간을 리셋
             timeAfterSpawn = 0f;
             // bulletPrefab의 복제본을 transform.position 위치와 transform.rotation 회전으로 생성
-            GameObject bullet = Instantiate(bulletPrefab, transform.position, transform.rotation);
+            Vector3 spawnerPosition = new Vector3(transform.position.x, transform.position.y + 15, transform.position.z);
+            GameObject bullet = Instantiate(bulletPrefab, spawnerPosition, transform.rotation);
             // 생성된 bullet 게임 오브젝트의 정면 방향이 target을 향하도록 회전
             bullet.transform.LookAt(target);
             // 다음번 생성 간격을 spawnRateMin, spawnRateMax 사이에서 랜덤 지정

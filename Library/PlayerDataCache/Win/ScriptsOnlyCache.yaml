@@ -58,23 +58,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11158}
+      Script: {instanceID: 11152}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11310}
     - Class: 114
-      Script: {instanceID: 11520}
+      Script: {instanceID: 11514}
     - Class: 114
-      Script: {instanceID: 11740}
+      Script: {instanceID: 11734}
     - Class: 114
-      Script: {instanceID: 12448}
+      Script: {instanceID: 12442}
     - Class: 114
-      Script: {instanceID: 12480}
+      Script: {instanceID: 12474}
     - Class: 114
-      Script: {instanceID: 12604}
+      Script: {instanceID: 12598}
     - Class: 114
-      Script: {instanceID: 12850}
+      Script: {instanceID: 12844}
     - Class: 114
-      Script: {instanceID: 12956}
+      Script: {instanceID: 12950}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -90,6 +90,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -548,8 +552,20 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 1a73ea64aff9df866ac1575d082313dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Lighting
+  - hash:
+      serializedVersion: 2
+      Hash: 28331099c6700b1b6c3999df98a031be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ConGUI
   platform: 5
   scenePathNames:
   - Assets/Cartoon Cat/Cartoon Cat.unity
-  playerPath: "C:/Users/user/Desktop/\uD504\uB85C\uC81D\uD2B8/BulletGame/exe/New
+  playerPath: "C:/Users/user/Desktop/\uD504\uB85C\uC81D\uD2B8/BulletGame/30315_\uC774\uC815\uC6B0/New
     Unity Project (2).exe"

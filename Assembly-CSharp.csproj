@@ -55,6 +55,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\KY_effects\Script\ConGUI.cs" />
+     <Compile Include="Assets\KY_effects\Script\Lighting.cs" />
      <Compile Include="Assets\Scripts\Animal.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\BulletSpawner.cs" />
@@ -62,6 +64,7 @@
      <Compile Include="Assets\Scripts\CatPlayer.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <None Include="Assets\KY_effects\MagicEffectsPackFree\ReadMe.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
